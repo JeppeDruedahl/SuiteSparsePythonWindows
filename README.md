@@ -47,7 +47,7 @@ This GitHub repository contains a guide on how to install Tim Davis's amazing [S
 
 8. Press **"Open projects"** (opens `C:/SuiteSparsePythonWindows/build/Example.sln` in **Visual Studio**)
 
-   * In the top ribbon choose "Release" and right click on "INSTALL" in the right-hand-side menu and choose "Build"
+   * In the top ribbon choose "Release" and right click on "Example" in the right-hand-side menu and choose "Build"
 
 9. Open `Example.ipynb` and run it.
 
