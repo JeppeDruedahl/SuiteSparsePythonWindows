@@ -2,7 +2,7 @@
 
 This GitHub repository contains a guide on how to install Tim Davis's amazing [SuiteSparse](http://faculty.cse.tamu.edu/davis/suitesparse.html) on a Windows machine, and use it in a C/C++ program with OpenMP interfaced from Python. It builds heavily upon [suitesparse-metis-for-windows](https://github.com/jlblancoc/suitesparse-metis-for-windows) by Jose Luis Blanco and Jerome Esnault.
 
-1. Install [CMake](http://www.cmake.org/donwload) and [Visual Studio 2017 Community](https://visualstudio.microsoft.com/)
+1. **Install** [CMake](http://www.cmake.org/donwload) and [Visual Studio 2017 Community](https://visualstudio.microsoft.com/)
 2. **Clone** the following repositories:
 
     * [suitesparse-metis-for-windows](https://github.com/jlblancoc/suitesparse-metis-for-windows) to `C:/suitesparse-metis-for-windows` 
@@ -49,6 +49,6 @@ This GitHub repository contains a guide on how to install Tim Davis's amazing [S
 
    * In the top ribbon choose "Release" and right click on "Example" in the right-hand-side menu and choose "Build"
 
-9. Open `Example.ipynb` and run it.
+9. Open the **Jupyter notebook** `Example.ipynb` and run it.
 
 **Note:** If you update `example.cpp` you now only need to re-run the notebook. Re-building from Visual Studio can, however, be useful for debugging.
