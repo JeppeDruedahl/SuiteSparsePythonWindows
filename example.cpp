@@ -136,6 +136,10 @@ EXPORT void setup_omp() {
 // when running from .exe
 int main (void) { 
 	
+	FILE* log_file;
+	fopen_s(&log_file, "log.txt", "w");
+    	fclose(log_file);
+	
 	double *diag = new double[3];
 	double *x = new double[3];
 
