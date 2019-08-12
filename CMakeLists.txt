@@ -10,7 +10,7 @@ set(CMAKE_CXX_FLAGS  "${CMAKE_CXX_FLAGS} -openmp -Ox")
 add_library(example SHARED example.cpp)
 
 # Alternative:
-# add_executable(example SHARED example.cpp)
+# add_executable(example example.cpp)
 # Run: Open "Command Prompt" and call "C:/SuiteSparsePythonWindows/build/Release/example.exe"
 
 include_directories("C:/suitesparse-metis-for-windows/build/install/include/suitesparse")
