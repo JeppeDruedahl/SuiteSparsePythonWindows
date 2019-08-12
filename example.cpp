@@ -48,7 +48,7 @@ void _example(double *diag, double *result){
 		((double*)A->x)[1] = -1.0; // value 1
 		((double*)A->x)[2] = diag[1]; // value 2
 
-		// column 2
+		// column 3
 		((int*)A->p)[2] = 3; // after # elements
 		((int*)A->i)[3] = 1; // row 1
 		((int*)A->i)[4] = 2; // row 2
